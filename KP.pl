@@ -97,13 +97,7 @@ female("Анастасия").
 
 
 
-dBrat(X, Y):-
-    children(X, Rod),
-    children(Rod, RodD),
-    children(T, RodD),
-    T \= Rod,
-    children(Y, T),
-    male(Y).
+
 %shurin
 shurin(Husb, Bro):- 
     wife(Husb, Wife), 
